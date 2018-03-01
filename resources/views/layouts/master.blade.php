@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ env('APP_NAME') }}</title>
     <!-- Styles -->
-    <link href="{{ asset('/css/app.css',true) }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
         </div>
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('/js/app.js',true) }}"></script>
+    <script src="{{ asset('/js/app.js') }}"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     @yield('customJS')
 </body>
