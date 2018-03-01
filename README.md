@@ -16,7 +16,7 @@ The following demo is running on Heroku
 2. Make sure you have install php7.2 and composer
 3. using terminal 
 ```bash
-$ cd expedia
+$ cd hotel_deals
 $ composer install
 $ php artisan serve
 ```
