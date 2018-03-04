@@ -17,7 +17,7 @@ The following demo is running on Heroku
 3. using terminal 
 ```bash
 $ cd hotel_deals
-$ composer install
+$ composer update
 $ php artisan serve
 ```
 - make sure you give the project 775 permission
